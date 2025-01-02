@@ -1,15 +1,20 @@
 import { Routes, Route } from "react-router";
 import App from "../App";
 import Home from "../Pages/Home";
-import Blog from "../Pages/Blog";
+import Login from "../Pages/Login";
+import Registration from "../Pages/Registration";
+import Not_found from "../Pages/Not_found";
+import PrivetRoute from "./PrivetRoute";
 
 const AppRoute = () => {
   return(
     <Routes>
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
-      <Route path="blog" element={<Blog />} />
+      <Route path="login" element={  <Login />  } />
+      <Route path="registration" element={<Registration />} />
     </Route>
+    <Route path="*" element={<Not_found />} />
   </Routes>
   )
 }

@@ -30,7 +30,7 @@ git clone <repository-url>
 # Navigate to both the client and server folders, and run the following command to install required dependencies:
 
 cd <your-directory-name>
-npm install or npm i
+yarn  or npm i
 
 # 3. Configure Environment Variables
 # Create a .env file in the root directory of the project. This file will store sensitive information like MongoDB credentials. Add the following configuration:
@@ -50,4 +50,4 @@ PORT=5000
 # Navigate to the server folder and start the backend server using the following commands:
 
 cd server
-npm start
+yarn start
