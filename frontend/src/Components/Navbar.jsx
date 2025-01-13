@@ -55,9 +55,9 @@ function Navbar() {
           <a>Home</a>
         </li>
       </NavLink>
-      <NavLink to={"/login"}>
+      <NavLink to={"/JoinUs"}>
         <li>
-          <a>login</a>
+          <a>Join us</a>
         </li>
       </NavLink>
       <NavLink to={"/registration"}>
